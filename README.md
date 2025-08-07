@@ -57,7 +57,10 @@ A full-stack application that allows users to connect their Slack workspace via 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/slack-connect.git
+For Frontend
+git clone https://github.com/<Sagargupta5159>/slack-connect-frontend.git
+For Backend
+git clone https://github.com/<Sagargupta5159>/slack-connect-backend.git
 cd slack-connect
 ```
 
