@@ -19,7 +19,8 @@ A full-stack application that allows users to connect their Slack workspace via 
   * [Install Dependencies](#install-dependencies)
   * [Running the Application](#running-the-application)
 * [Usage](#usage)
-* [Architectural Overview](#Architectural Overview)
+* [Architectural Overview](#Architectural-Overview)
+* [Photos](#Photos)
 
 ---
 
