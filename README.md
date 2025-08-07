@@ -139,8 +139,12 @@ This starts the frontend at `http://localhost:5173` (or as configured by Vite).
 
 ---
 
-##
+## Photos
 
----
+---<img width="1894" height="904" alt="Screenshot 2025-08-08 001828" src="https://github.com/user-attachments/assets/ddad9d90-ad07-493d-9260-7dc8237c75ef" />
+
+
+<img width="1247" height="341" alt="Screenshot 2025-08-08 003651" src="https://github.com/user-attachments/assets/71d90751-8949-4723-9035-d63c49aec473" />
+
 
 ##
