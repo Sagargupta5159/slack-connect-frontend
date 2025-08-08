@@ -19,12 +19,12 @@ const SendMessage = () => {
         message,
       });
 
-      setStatus('✅ Message sent successfully!');
+      setStatus(' Message sent successfully!');
       setChannel('');
       setMessage('');
     } catch (err) {
       console.error(err);
-      setStatus('❌ Failed to send message.');
+      setStatus(' Failed to send message.');
     }
   };
 
