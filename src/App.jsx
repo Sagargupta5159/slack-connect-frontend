@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ConnectSlack from './components/ConnectSlack';
 import SendMessage from './components/SendMessage';
-import ScheduleMessage from './components/ScheduleMessage'; // ✅ Import it
+import ScheduleMessage from './components/ScheduleMessage'; 
 import ScheduledList from './components/ScheduledList';
 
 function App() {
