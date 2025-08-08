@@ -11,29 +11,29 @@ const ScheduledList = () => {
             setMessages(res.data.messages);
         } catch (err) {
             console.error(err);
-            setStatus('❌ Failed to fetch scheduled messages.');
+            setStatus(' Failed to fetch scheduled messages.');
         }
     };
 
     //   const cancelMessage = async (id) => {
     //     try {
     //       await axios.post(`${import.meta.env.VITE_API_URL}/api/message/cancel`, { messageId: id });
-    //       setStatus('✅ Message cancelled');
+    //       setStatus(' Message cancelled');
     //       fetchScheduled(); // Refresh list
     //     } catch (err) {
     //       console.error(err);
-    //       setStatus('❌ Failed to cancel message.');
+    //       setStatus(' Failed to cancel message.');
     //     }
     //   };
 
     const cancelMessage = async (id) => {
         try {
             await axios.delete(`${import.meta.env.VITE_API_URL}/api/message/${id}/cancel`);
-            setStatus('✅ Message cancelled');
+            setStatus(' Message cancelled');
             fetchScheduled(); // Refresh the list
         } catch (err) {
             console.error(err);
-            setStatus('❌ Failed to cancel message.');
+            setStatus(' Failed to cancel message.');
         }
     };
 
@@ -44,7 +44,7 @@ const ScheduledList = () => {
 
     return (
         <div style={{ padding: '20px', width: '90%', margin: 'auto' }}>
-            <h2>📋 Scheduled Messages</h2>
+            <h2> Scheduled Messages</h2>
             <p>{status}</p>
             {messages.length === 0 ? (
                 <p>No scheduled messages.</p>
