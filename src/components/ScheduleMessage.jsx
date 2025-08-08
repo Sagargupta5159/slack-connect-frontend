@@ -15,7 +15,7 @@ const ScheduleMessage = () => {
 
     const team_id = localStorage.getItem('team_id');
     if (!team_id) {
-      setStatus('❌ Slack workspace not connected.');
+      setStatus(' Slack workspace not connected.');
       return;
     }
     console.log(channel,
@@ -31,13 +31,13 @@ const ScheduleMessage = () => {
         team_id
       });
 
-      setStatus('✅ Message scheduled successfully!');
+      setStatus(' Message scheduled successfully!');
       setChannel('');
       setMessage('');
       setDatetime('');
     } catch (err) {
       console.error(err);
-      setStatus('❌ Failed to schedule message.');
+      setStatus(' Failed to schedule message.');
     }
   };
 
